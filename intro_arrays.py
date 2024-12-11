@@ -14,7 +14,7 @@ print(type(numeros))
 print(type(array_0d))
 print(array_0d)
 
-print(numeros.ndim)# nº de dimensões do array
+print(numeros.ndim)# nº de dimensões do
 
 for i in range(5):
     print(numeros[i])

@@ -12,5 +12,12 @@ notas = np.zeros(NR_ALUNOS)
 
 #ler as notas
 for n in range(NR_ALUNOS):
-    notas[n] = int(input("Nota:"))
-print(notas)    
+    notas[n] = int(input(f"Introduza a nota do aluno nº {n+1}:"))
+
+#calcular a média
+soma = 0
+for n in range(NR_ALUNOS):
+    soma = soma + notas[n]
+
+media = soma / NR_ALUNOS
+print(f"A média das notas dos alunos foi de {media}")    

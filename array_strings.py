@@ -13,4 +13,4 @@ nomes = np.empty(10,dtype="U20")
 
 for i in range(len(nomes)):
     nomes[i] = input("Introduza o nome:")
-print(nomes)    
+print(nomes)   
